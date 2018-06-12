@@ -1,0 +1,1 @@
+cmd_/root/git/lktm/drivers/block/sampleblk/day1/sampleblk.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/git/lktm/drivers/block/sampleblk/day1/sampleblk.ko /root/git/lktm/drivers/block/sampleblk/day1/sampleblk.o /root/git/lktm/drivers/block/sampleblk/day1/sampleblk.mod.o

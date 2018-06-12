@@ -1,6 +1,11 @@
 #
-### Makefile for Linux sample_nmi
+# Makefile for Linux sampleblk
 #
-#obj-m += sample_nmi.o
+obj-m += nmi.o
 
-sampleblk-objs := sample_nmi.o
+nmi-objs := sample_nmi.o
+KERNELDIR:=/lib/modules/$(shell uname -r)/build
+PWD:=$(shell pwd)
+all:
+	make -C $(KERNELDIR) M=$(PWD) modules
+

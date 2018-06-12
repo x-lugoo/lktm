@@ -1,0 +1,1 @@
+cmd_/root/git/lktm/fs/samplefs/day3/samplefs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/git/lktm/fs/samplefs/day3/samplefs.ko /root/git/lktm/fs/samplefs/day3/samplefs.o /root/git/lktm/fs/samplefs/day3/samplefs.mod.o

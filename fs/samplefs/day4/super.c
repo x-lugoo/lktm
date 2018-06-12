@@ -253,7 +253,7 @@ sfs_debug_read(char *buf, char **beginBuffer, off_t offset,
 void
 sfs_proc_init(void)
 {
-	proc_fs_samplefs = proc_mkdir("samplefs", proc_root_fs);
+	proc_fs_samplefs = proc_mkdir("jsamplefs", proc_root_fs);
 	if (proc_fs_samplefs == NULL)
 		return;
 

@@ -1,0 +1,1 @@
+cmd_/root/git/lktm/drivers/block/sampleblk/day1/sampleblk.o := ld -m elf_x86_64   -r -o /root/git/lktm/drivers/block/sampleblk/day1/sampleblk.o /root/git/lktm/drivers/block/sampleblk/day1/sample_blk.o 
